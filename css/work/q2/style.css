@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
-
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
+
+.table {
+    width: 100%;
+    table-layout: auto;
+    text-align: center;
+}
+
+.cell {
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+
+.th {
+    background-color: #2244aa;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.tbody-tr:nth-child(even) {
+    background-color: #ecf1f2;
+}
+
+.tbody-tr:last-child {
+    border-top: 2px solid #000;
+    border-style: dashed;
+}
+
+.td {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.td:first-child {
+    background-color: #2244aa;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
