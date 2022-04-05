@@ -4,40 +4,34 @@
 q3のcssはq3フォルダの中のcssファイルに記述してください */
 
 .table {
-    width: 100%;
-    table-layout: auto;
-    text-align: center;
+  width: 100%;
+  table-layout: auto;
+  text-align: center;
 }
 
-.cell {
-    border: 1px solid #dedede;
-    padding: 10px;
+.table th,
+.table td {
+  border: 1px solid #dedede;
+  padding: 10px;
 }
 
-.th {
-    background-color: #2244aa;
-    color: #fff;
-    font-size: 18px;
-    line-height: 26px;
+.table th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
 }
 
-.tbody-tr:nth-child(even) {
-    background-color: #ecf1f2;
+.table td {
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.tbody-tr:last-child {
-    border-top: 2px solid #000;
-    border-style: dashed;
+.table tr:nth-child(even) {
+  background-color: #ecf1f2;
 }
 
-.td {
-    font-size: 16px;
-    line-height: 22px;
-}
-
-.td:first-child {
-    background-color: #2244aa;
-    color: #fff;
-    font-size: 18px;
-    line-height: 26px;
+.table tfoot {
+  border-top: 2px solid #000;
+  border-style: dashed;
 }
