@@ -4,11 +4,13 @@
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
 
-.q4_text-align_box {
+.q4_text-align_box,
+.q4_flex {
   text-align: center;
 }
 
-.q4_text-align {
+.q4_text-align,
+.q4_table_cell_text {
   display: inline-block;
 }
 
@@ -27,32 +29,24 @@ q5のcssはq5フォルダの中のcssファイルに記述してください */
   text-align: center;
 }
 
-.q4_table_cell_text {
-  display: inline-block;
-}
-
 .q4_flex_box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.q4_flex {
-  text-align: center;
-}
-
-.q4_position_box {
-  position: relative;
-}
-
 .q4_position {
   position: absolute;
-  top: 50px;
-  left: 50px;
   text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.q4_position_box_variable {
+.q4_position_box_variable,
+.q4_position_box {
   position: relative;
 }
 

@@ -16,8 +16,10 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   margin-left: 60px;
 }
 
-.q5_float:first-child {
-  margin: 0;
+.q5_float:first-child,
+.q5_inline-block:first-child,
+.q5_calc:first-child {
+  margin-left: 0;
 }
 
 .q5_table {
@@ -33,7 +35,8 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   padding: 0;
 }
 
-.q5_inline-block_block {
+.q5_inline-block_block,
+.q5_calc_box {
   font-size: 0;
 }
 
@@ -41,10 +44,6 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   display: inline-block;
   width: 400px;
   margin-left: 60px;
-}
-
-.q5_inline-block:first-child {
-  margin: 0;
 }
 
 .q5_flex_box {
@@ -56,16 +55,8 @@ q6のcssはq6フォルダの中のcssファイルに記述してください */
   width: 400px;
 }
 
-.q5_calc_box {
-  font-size: 0;
-}
-
 .q5_calc {
   display: inline-block;
   width: calc((100% - 60px)/3);
   margin-left: 30px;
-}
-
-.q5_calc:first-child {
-  margin: 0;
 }
