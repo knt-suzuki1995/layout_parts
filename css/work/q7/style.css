@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+.q7_bubble {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 35px;
+}
+
+.q7_img_box {
+  font-size: 0;
+}
+
+.q7_text_box {
+  position: relative;
+  width: 550px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid #222;
+  border-radius: 30px;
+  font-size: 16px;
+  word-break: break-all;
+}
+
+.q7_text_box:before,
+.q7_text_box:after {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.q7_text_box:before {
+  left: -45px;
+  border-right-color: #222;
+}
+
+.q7_text_box:after {
+  left: -38px;
+  border-right-color: #fff;
+}
